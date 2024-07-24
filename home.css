@@ -1,0 +1,324 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kalam:wght@300;400;700&family=Playwrite+CU:wght@100..400&family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kalam:wght@300;400;700&family=Playwrite+CU:wght@100..400&family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&family=Zain:wght@200;300;400;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap');
+body {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(61, 59, 59);
+    color: white;
+    padding: 10px 20px;
+}
+
+.name {
+    font-family: "Kalam", cursive;
+    font-weight: 500;
+    font-size: 38px;
+}
+
+.ulnav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    font-family: "Zain", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+.linav:hover {
+    background-color: white;
+    border-radius: 8px;
+    a {
+        color: black;
+    }
+}
+
+
+img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+.main {
+    font-family: "Kalam", cursive;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 10%;
+    padding: 30px;
+    margin-bottom: 140px;
+    text-wrap: wrap;
+}
+
+.name1 {
+    font-size: 60px;
+}
+
+.contactbtn {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 120px;
+}
+
+.line {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.edu {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-bottom: 80px;
+}
+.edu1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-bottom: 80px;
+    color: white;
+}
+
+.boxes{
+    margin: 5% 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 40px;
+}
+.box1{
+    font-size: 24px;
+    padding: 50px;
+    font-family: "Zain", sans-serif;
+}
+.grid1{
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 90px;
+}
+#high{
+    font-weight: 800;
+}
+#date{
+    text-align: end;
+}
+.ulfront, .ulback{
+    padding-left: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.lifront1, .liback1{
+    font-size: 26px;
+    list-style-type: disc;
+
+}
+.lifront2, .liback2{
+    padding-left: 20px;
+    font-size: 26px;
+
+}
+.flexskill{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 15%;
+    font-family: "Zain", sans-serif;
+    font-weight: 300;
+}
+.fronthead, .backhead{
+    font-size: 30px;
+    font-weight: 400;
+}
+.frontend, .backend{
+    border: solid 1px black;
+    padding: 30px 80px;
+    margin-bottom: 3%;
+    border-radius: 5px;
+}
+.contactcontent {
+    margin: 5% 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form1 {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.send {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 120px;
+    align-self: flex-start;
+}
+@media (max-width:1300px){
+    .main {
+        margin: 0 5%;
+        padding: 20px;
+    }
+    
+    .name1 {
+        font-size: 30px;
+    }
+    
+    
+    nav ul {
+        flex-direction: row;
+    }
+    
+    nav ul li {
+        padding: 10px 0;
+    } 
+    .boxes{
+        margin: 0 15%;
+        column-gap: 500px;
+        row-gap: 50px;
+    }
+    .box1{
+        font-size: 24px;
+        padding: 40px;
+        font-family: "Zain", sans-serif;
+    }
+    .grid1{
+        
+        column-gap: 70px;
+    }
+    #high{
+        font-weight: 800;
+    }
+  
+
+}
+@media (max-width: 1000px) {
+    .main {
+        margin: 0 5%;
+        padding: 20px;
+    }
+    
+    .name1 {
+        font-size: 30px;
+    }
+    
+    
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav ul li {
+        padding: 10px 0;
+    } 
+    .boxes{
+        margin: 0 12%;
+        column-gap: 500px;
+        row-gap: 40px;
+    }
+    .box1{
+        font-size: 22px;
+        padding: 40px;
+        font-family: "Zain", sans-serif;
+    }
+    .grid1{
+        
+        column-gap: 70px;
+    }
+    #high{
+        font-weight: 800;
+    }
+    
+}
+
+
+@media(max-width: 800px){
+    .name1 {
+        font-size: 24px;
+    }
+    
+    .line {
+        font-size: 16px;
+    }
+
+    .boxes{
+        margin: 0 7%;
+        column-gap: 500px;
+        row-gap: 20px;
+    }
+    .box1{
+        font-size: 18px;
+        padding: 10px;
+        font-family: "Zain", sans-serif;
+    }
+    .grid1{
+        
+        column-gap: 50px;
+    }
+    #high{
+        font-weight: 600;
+    }
+     
+}
