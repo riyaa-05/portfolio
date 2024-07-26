@@ -41,7 +41,7 @@ a {
     font-family: "Zain", sans-serif;
     font-weight: 300;
     font-size: 25px;
-    padding: 10px;
+    padding: 8px;
 }
 
 
@@ -86,6 +86,12 @@ img {
     border-radius: 4px;
     cursor: pointer;
     width: 120px;
+    transition: font 0.3s;
+}
+.contactbtn:hover{
+    background-color: rgb(94, 88, 88);
+    font-size: 17px ;
+
 }
 
 .line {
@@ -187,8 +193,11 @@ img {
     height: 30vh;
     object-fit: contain;
     padding: 50px;
+    opacity: 0.8;
 }
-
+.projectimg:hover{
+    opacity: 1;
+}
 .contactcontent {
     margin: 5% 20%;
     display: flex;
