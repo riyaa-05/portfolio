@@ -193,11 +193,9 @@ img {
     height: 30vh;
     object-fit: contain;
     padding: 50px;
-    opacity: 0.8;
+    
 }
-.projectimg:hover{
-    opacity: 1;
-}
+
 .contactcontent {
     margin: 5% 20%;
     display: flex;
