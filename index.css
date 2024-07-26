@@ -20,6 +20,7 @@ nav {
     background-color: rgb(61, 59, 59);
     color: white;
     padding: 10px 20px;
+    overlay: none;
 }
 
 .name {
@@ -193,7 +194,10 @@ img {
     height: 30vh;
     object-fit: contain;
     padding: 50px;
-    
+    opacity: 1;
+}
+.projectimg:hover {
+    opacity:0.7;
 }
 
 .contactcontent {
@@ -238,7 +242,13 @@ input, textarea {
     border-radius: 4px;
     cursor: pointer;
     width: 120px;
+    transition: font 0.3s;
     align-self: flex-start;
+}
+.send:hover{
+    background-color: rgb(94, 88, 88);
+    font-size: 17px ;
+
 }
 @media (max-width:1300px){
     .main {
