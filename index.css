@@ -17,10 +17,11 @@ nav {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background-color: rgb(61, 59, 59);
+    background-color: rgb(61,59,59); 
     color: white;
-    padding: 10px 20px;
-    overlay: none;
+    padding: 5px auto;
+    z-index: 1000;
+    width: 100%;
 }
 
 .name {
@@ -175,7 +176,7 @@ img {
     font-weight: 400;
 }
 .frontend, .backend{
-    border: solid 1px black;
+    border: outset 1px black;
     padding: 30px 80px;
     margin-bottom: 3%;
     border-radius: 5px;
@@ -189,13 +190,20 @@ img {
     font-family: "Zain", sans-serif;
     font-size: 30px;
 }
+.project1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .projectimg{
     width: 100%;
     height: 30vh;
     object-fit: contain;
     padding: 50px;
     opacity: 1;
+    z-index: 1;
 }
+
 .projectimg:hover {
     opacity:0.7;
 }
@@ -285,10 +293,21 @@ input, textarea {
     #high{
         font-weight: 800;
     }
-  
+    .projectflex{
+        display: flex;
+        flex-direction: column;
+        padding:0px;
+        font-size: 25px;
+        justify-content: center;
+    }
+    .project1{
+        
+        align-items: center;
+
+    }
 
 }
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     .main {
         margin: 0 5%;
         padding: 20px;
@@ -323,11 +342,21 @@ input, textarea {
     #high{
         font-weight: 800;
     }
+    .projectflex{
+        display: flex;
+        padding: 5px;
+        font-size: 23px;
+        
+        align-items: center;
+    }
+    .projectimg1{
+        width: 500px;
+    }
     
 }
 
 
-@media(max-width: 800px){
+@media(max-width: 600px){
     .name1 {
         font-size: 24px;
     }
@@ -352,6 +381,17 @@ input, textarea {
     }
     #high{
         font-weight: 600;
+    }
+    .projectflex{
+        display: flex;
+        flex-direction: column;
+        padding:3px;
+        font-size: 25px;
+    }
+    .project1{
+        
+        align-items: center;
+
     }
      
 }
