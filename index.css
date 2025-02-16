@@ -82,19 +82,20 @@ img {
 
 .contactbtn {
     border: none;
-    background-color: black;
-    color: white;
-    padding: 10px 30px;
+    background-color: rgb(250, 251, 253);
+    color: rgb(16, 15, 15);
+    padding: 15px 10px;
     border-radius: 4px;
-    cursor: pointer;
-    width: 120px;
-    transition: font 0.3s;
+    width: 60%;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: large;
+    font-weight: 700;
 }
-.contactbtn:hover{
+/* .contactbtn:hover{
     background-color: rgb(94, 88, 88);
     font-size: 17px ;
 
-}
+} */
 
 .line {
     padding-top: 20px;
@@ -123,7 +124,7 @@ img {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    column-gap: 100px;
+    column-gap: 80px;
     row-gap: 40px;
 }
 .box1{
@@ -177,7 +178,7 @@ img {
 }
 .frontend, .backend{
     border: outset 1px black;
-    padding: 30px 80px;
+    padding: 30px 60px;
     margin-bottom: 3%;
     border-radius: 5px;
 }
